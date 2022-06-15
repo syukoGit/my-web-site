@@ -1,4 +1,3 @@
-import '../styles/components/Header.scss';
 import { Box, styled, IconButton, Tooltip } from "@mui/material";
 import ThemeSwitch from './ThemeSwitch';
 import GitHubIcon from '@mui/icons-material/GitHub';
