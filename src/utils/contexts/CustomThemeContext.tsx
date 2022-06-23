@@ -10,7 +10,7 @@ interface ThemeContextProps {
 }
 
 export const CustomThemeProvider = ({ children }: ThemeContextProps) => {
-    const [mode, setMode] = useState<'light' | 'dark'>('light');
+    const [mode, setMode] = useState<'light' | 'dark'>('dark');
 
     const colorMode = useMemo(
         () => ({
