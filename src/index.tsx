@@ -13,9 +13,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <CustomThemeProvider>
-        <Header />
-        <Home />
-        <Footer />
+      <Header />
+      <Home />
+      <Footer />
     </CustomThemeProvider>
   </React.StrictMode>
 );

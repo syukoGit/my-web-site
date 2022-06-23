@@ -6,11 +6,11 @@ const StyledBox = styled(Box)(({ theme }) => ({
   alignItems: 'center',
   justifyContent: 'center',
   flexDirection: 'column',
-  background: theme.palette.secondary.dark,
+  background: theme.palette.secondary.main,
 }));
 
 const StyledTitle = styled('h1')(({ theme }) => ({
-  color: theme.palette.primary.light,
+  color: theme.palette.primary.main,
   fontSize: '60px',
 }));
 

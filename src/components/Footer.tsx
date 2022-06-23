@@ -6,7 +6,7 @@ const StyledBox = styled(Box)(({ theme }) => ({
     justifyContent: "center",
     alignItems: "center",
     padding: "0.5rem",
-    backgroundColor: theme.palette.secondary.dark,
+    backgroundColor: theme.palette.secondary.light,
     position: "fixed",
     left: 0,
     bottom: 0,
