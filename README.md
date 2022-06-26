@@ -1,5 +1,7 @@
 # Antonin LYAËT - Web site
 
+[![Deploy to Azure Web App](https://github.com/syukoGit/my-web-site/actions/workflows/prod_build-deploy-website-on-azure.yml/badge.svg?branch=prod)](https://github.com/syukoGit/my-web-site/actions/workflows/prod_build-deploy-website-on-azure.yml)
+
 This repository contains the source code of my personal website.
 
 The web site is available at [https://antonin.lyaet.fr](https://antonin.lyaet.fr).
