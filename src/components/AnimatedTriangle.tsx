@@ -44,8 +44,8 @@ const StyledCircle = styled('circle')(({ theme }) => ({
 }));
 
 interface AnimatedTriangleProps {
-  top: number;
-  left: number;
+  top: number | string;
+  left: number | string;
 }
 
 function AnimatedTriangle({ top, left }: AnimatedTriangleProps) {
