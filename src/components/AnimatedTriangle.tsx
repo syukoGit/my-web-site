@@ -1,12 +1,13 @@
 import { styled } from '@mui/material';
 
 const StyledContainer = styled('svg')(
-  ({ top, left }: { top: number; left: number }) => ({
+  ({ pos, reversed }: { pos: AnimatedTriangleProps; reversed?: boolean }) => ({
     position: 'absolute',
-    top: top,
-    left: left,
+    top: pos.top,
+    left: pos.left,
     zIndex: 0,
-    animationName: 'triangleAnimation',
+    animationName:
+      reversed === true ? 'triangleAnimationInverse' : 'triangleAnimation',
     animationDuration: 5 + Math.random() * (10 - 5) + 's',
     animationIterationCount: 'infinite',
     '@keyframes triangleAnimation': {
@@ -15,6 +16,14 @@ const StyledContainer = styled('svg')(
       },
       '100%': {
         transform: 'rotate(360deg)',
+      },
+    },
+    '@keyframes triangleAnimationInverse': {
+      '0%': {
+        transform: 'rotate(0deg)',
+      },
+      '100%': {
+        transform: 'rotate(-360deg)',
       },
     },
   })
@@ -35,11 +44,11 @@ const StyledCircle = styled('circle')(({ theme }) => ({
 }));
 
 interface AnimatedTriangleProps {
-  x: number;
-  y: number;
+  top: number;
+  left: number;
 }
 
-function AnimatedTriangle({ x, y }: AnimatedTriangleProps) {
+function AnimatedTriangle({ top, left }: AnimatedTriangleProps) {
   const points = [
     { x: 75, y: 50 },
     { x: 53.35, y: 87.5 },
@@ -47,7 +56,11 @@ function AnimatedTriangle({ x, y }: AnimatedTriangleProps) {
   ];
 
   return (
-    <StyledContainer width="150" height="150" top={x} left={y}>
+    <StyledContainer
+      width="150"
+      height="150"
+      pos={{ top, left }}
+      reversed={Math.round(Math.random()) === 1 ? true : undefined}>
       <StyledTriangle points={points.map((p) => `${p.x},${p.y}`).join(' ')} />
       <StyledCircle cx={points[0].x} cy={points[0].y} r="5" />
       <StyledCircle cx={points[1].x} cy={points[1].y} r="5" />
