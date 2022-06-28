@@ -13,6 +13,18 @@ const StyledBox = styled(Box)(({ theme }) => ({
 const StyledTitle = styled('h1')(({ theme }) => ({
   color: theme.palette.primary.main,
   fontSize: '60px',
+  animationName: 'fadeIn',
+  animationDuration: '3s',
+  '@keyframes fadeIn': {
+    from: {
+      opacity: 0,
+      marginTop: '-500px',
+    },
+    to: {
+      opacity: 1,
+      marginTop: '40.200px',
+    },
+  },
 }));
 
 const StyledSubTitle = styled('h3')(({ theme }) => ({
