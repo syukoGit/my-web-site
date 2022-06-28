@@ -8,6 +8,10 @@ const StyledBox = styled(Box)(({ theme }) => ({
   alignItems: 'center',
   padding: '0.5rem',
   backgroundColor: theme.palette.primary.main,
+  position: 'fixed',
+  left: 0,
+  top: 0,
+  right: 0,
 }));
 
 function Header() {

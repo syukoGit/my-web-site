@@ -35,14 +35,14 @@ const StyledSubTitle = styled('h3')(({ theme }) => ({
 function Home() {
   const animatedTriangles = [
     { top: { min: 10, max: 40 }, left: 0 },
-    { top: { min: 50, max: 90 }, left: 5 },
+    { top: { min: 50, max: 80 }, left: 5 },
     { top: { min: 10, max: 30 }, left: 15 },
     { top: { min: 50, max: 80 }, left: 20 },
     { top: { min: 10, max: 35 }, left: 30 },
     { top: { min: 65, max: 80 }, left: 40 },
     { top: { min: 10, max: 35 }, left: 55 },
     { top: { min: 65, max: 80 }, left: 60 },
-    { top: { min: 10, max: 90 }, left: 65 },
+    { top: { min: 10, max: 80 }, left: 65 },
     { top: { min: 10, max: 45 }, left: 70 },
     { top: { min: 60, max: 80 }, left: 75 },
     { top: { min: 10, max: 80 }, left: 85 },
