@@ -50,15 +50,15 @@ interface AnimatedTriangleProps {
 
 function AnimatedTriangle({ top, left }: AnimatedTriangleProps) {
   const points = [
-    { x: 75, y: 50 },
-    { x: 53.35, y: 87.5 },
-    { x: 96.65, y: 87.5 },
+    { x: 10, y: 47.5 },
+    { x: 53.3, y: 47.5 },
+    { x: 31.65, y: 10 },
   ];
 
   return (
     <StyledContainer
-      width="150"
-      height="150"
+      width="63.3"
+      height="57.5"
       pos={{ top, left }}
       reversed={Math.round(Math.random()) === 1 ? true : undefined}>
       <StyledTriangle points={points.map((p) => `${p.x},${p.y}`).join(' ')} />
