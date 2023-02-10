@@ -10,7 +10,7 @@ The web site is available at [https://antonin.lyaet.fr](https://antonin.lyaet.fr
 
 The web site is written in [React TypeScript](https://en.reactjs.org/).
 
-For the style, it used [Styled Components](https://www.styled-components.com/) and [Material UI](https://material-ui.com/).
+For the style, it used [Sass](https://sass-lang.com/).
 
 ## Deployment
 
