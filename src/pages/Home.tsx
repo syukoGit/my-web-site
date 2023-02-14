@@ -1,4 +1,4 @@
-import TopSection from '../components/Homes/TopSection';
+import TopSection from '../components/Home/TopSection';
 import './Home.scss';
 
 const Home = () => (
