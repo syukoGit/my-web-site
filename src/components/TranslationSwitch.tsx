@@ -1,5 +1,5 @@
-import { getLanguage, setLanguage, useTranslation } from 'react-multi-lang';
 import './TranslationSwitch.scss';
+import { getLanguage, setLanguage, useTranslation } from 'react-multi-lang';
 
 const TranslationSwitch = () => {
   const language = getLanguage();

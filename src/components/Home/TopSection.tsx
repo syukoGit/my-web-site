@@ -1,6 +1,6 @@
-import { useTranslation } from 'react-multi-lang';
-import TranslationSwitch from '../TranslationSwitch';
 import './TopSection.scss';
+import TranslationSwitch from '../TranslationSwitch';
+import { useTranslation } from 'react-multi-lang';
 
 const TopSection = () => {
   const t = useTranslation();
