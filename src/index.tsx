@@ -8,7 +8,7 @@ import en from './translations/en.json';
 import fr from './translations/fr.json';
 
 setTranslations({ en, fr });
-setDefaultLanguage('en');
+setDefaultLanguage('fr');
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
