@@ -8,11 +8,12 @@ const TranslationSwitch = () => {
   return (
     <button
       onClick={() => setLanguage(language === 'fr' ? 'en' : 'fr')}
-      type="button"
-      className="translation-switch">
-      <p className="translation-switch__label">{t('language.name')}</p>
-      {language === 'fr' && <i className="flag flag--fr"></i>}
-      {language === 'en' && <i className="flag flag--usa"></i>}
+      type='button'
+      className='translation-switch'
+    >
+      <p className='translation-switch__label'>{t('language.name')}</p>
+      {language === 'fr' && <i className='flag flag--fr'></i>}
+      {language === 'en' && <i className='flag flag--usa'></i>}
     </button>
   );
 };

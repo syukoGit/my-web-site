@@ -6,9 +6,9 @@ const TopSection = () => {
   const t = useTranslation();
 
   return (
-    <section className="top-section">
+    <section className='top-section'>
       <TranslationSwitch />
-      <div className="top-section__title">
+      <div className='top-section__title'>
         <p>A</p>
         <p>n</p>
         <p>t</p>
@@ -23,8 +23,8 @@ const TopSection = () => {
         <p>Ë</p>
         <p>T</p>
       </div>
-      <p className="top-section__subtitle">{t('home.top-section.subtitle')}</p>
-      <i className="top-section__arrow-down bi bi-arrow-down"></i>
+      <p className='top-section__subtitle'>{t('home.top-section.subtitle')}</p>
+      <i className='top-section__arrow-down bi bi-arrow-down'></i>
     </section>
   );
 };
