@@ -1,10 +1,10 @@
 {
-    "home": {
-        "top-section": {
-            "subtitle": "Développeur Full Stack"
-        }
-    },
-    "language": {
-        "name": "Français"
+  "home": {
+    "top-section": {
+      "subtitle": "Développeur Full Stack"
     }
+  },
+  "language": {
+    "name": "Français"
+  }
 }
