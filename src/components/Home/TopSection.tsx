@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-multi-lang';
+import TranslationSwitch from '../TranslationSwitch';
 import './TopSection.scss';
 
 const TopSection = () => {
@@ -6,6 +7,7 @@ const TopSection = () => {
 
   return (
     <section className="top-section">
+      <TranslationSwitch />
       <div className="top-section__title">
         <p>A</p>
         <p>n</p>
