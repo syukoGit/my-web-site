@@ -1,6 +1,6 @@
 # Antonin LYAËT - Web site
 
-[![Deploy to Azure Web App](https://github.com/syukoGit/my-web-site/actions/workflows/prod_build-deploy-website-on-azure.yml/badge.svg?branch=prod)](https://github.com/syukoGit/my-web-site/actions/workflows/prod_build-deploy-website-on-azure.yml)
+[![Deploy to Azure Web App](https://github.com/syukoGit/my-web-site/actions/workflows/azure-static-web-apps-white-forest-0c941b603.yml/badge.svg?branch=prod)](https://github.com/syukoGit/my-web-site/actions/workflows/azure-static-web-apps-white-forest-0c941b603.yml)
 
 This repository contains the source code of my personal website.
 
