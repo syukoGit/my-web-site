@@ -1,0 +1,32 @@
+.translation-switch {
+  display: flex;
+  background: none;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: underline;
+  height: 1vh;
+
+  .translation-switch__label {
+    font-size: 1vh;
+    font-weight: 500;
+    margin-right: 0.5vw;
+  }
+
+  .flag {
+    display: inline-block;
+    width: 1.5vh;
+    height: 1vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &--fr {
+      background-image: url(../assets/flags/fr.svg);
+    }
+
+    &--usa {
+      background-image: url(../assets/flags/usa.svg);
+    }
+  }
+}
